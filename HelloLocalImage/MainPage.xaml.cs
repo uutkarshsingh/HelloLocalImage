@@ -11,7 +11,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+using Windows.UI;
+using Windows.UI.Text;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace HelloLocalImage
@@ -24,6 +25,15 @@ namespace HelloLocalImage
         public MainPage()
         {
             this.InitializeComponent();
+
+            TextBlock txtblk = new TextBlock();
+            txtblk.Text = "Hello, Windows 8";
+            txtblk.FontFamily = new FontFamily("Times New Roman");
+            txtblk.FontSize = 96;
+            txtblk.FontStyle = FontStyle.Italic;
+            txtblk.HorizontalAlignment = HorizontalAlignment.Center;
+            txtblk.VerticalAlignment = VerticalAlignment.Center;
+            ContentGrid.Children.Add(txtblk);
         }
 
         /// <summary>

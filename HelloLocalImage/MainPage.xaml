@@ -7,9 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid    Background="Blue">
-        <TextBlock Foreground="Yellow" VerticalAlignment="Center" HorizontalAlignment="Center">
-            UTKARSH RATHOR
-        </TextBlock>
+    <Grid  x:Name ="ContentGrid" Background="Blue">
+    <MediaElement Source="http://www.charlespetzold.com/pw6/AudioGreeting.wma"/>
+    
     </Grid>
 </Page>
