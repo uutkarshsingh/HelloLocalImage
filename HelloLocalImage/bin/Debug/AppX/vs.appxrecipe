@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>UTKARSH</Machine>
+    <WindowsUser>uutkarshsingh</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>276991DA505B416C2B2E4A34B73025812B8EC203C73D65683EC53E000E89647B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>32848fa6-0695-4e3d-a1df-1a44c32dd36f_1.0.0.0_neutral__r7raznjkv09h4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>32848fa6-0695-4e3d-a1df-1a44c32dd36f_r7raznjkv09h4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>32848fa6-0695-4e3d-a1df-1a44c32dd36f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=uutkarshsingh</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-30T16:08:59.169</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\HelloLocalImage.exe">
+      <PackagePath>HelloLocalImage.exe</PackagePath>
+      <Modified>2016-10-30T16:50:04.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\HelloLocalImage.pdb">
+      <PackagePath>HelloLocalImage.pdb</PackagePath>
+      <Modified>2016-10-30T16:50:04.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Images\example.png">
+      <PackagePath>Images\example.png</PackagePath>
+      <Modified>2016-10-30T16:04:50.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2016-10-30T15:54:08.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T23:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2016-10-30T16:50:02.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-10-30T16:08:56.350</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
