@@ -6,8 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-    <Grid  x:Name ="ContentGrid" Background="Blue">
+    <Page.Resources>
+        <x:String x:Key="appName">Utkarsh Singh </x:String>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+            <Setter Property="FontSize" Value="96"/>
+            <Setter Property="Foreground" Value="Yellow"/>
+        </Style>
+    </Page.Resources>
+    
+    
+        <Grid  x:Name ="ContentGrid" Background="Blue">
+        <TextBlock Foreground="White" HorizontalAlignment="Right" >Utkarsh singh</TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Text="{StaticResource appName}"></TextBlock>
     <MediaElement Source="http://www.charlespetzold.com/pw6/AudioGreeting.wma"/>
     
     </Grid>

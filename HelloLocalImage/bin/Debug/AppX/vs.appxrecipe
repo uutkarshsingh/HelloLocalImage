@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\HelloLocalImage.exe">
       <PackagePath>HelloLocalImage.exe</PackagePath>
-      <Modified>2016-10-30T17:09:14.340</Modified>
+      <Modified>2016-10-31T13:13:26.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\HelloLocalImage.pdb">
       <PackagePath>HelloLocalImage.pdb</PackagePath>
-      <Modified>2016-10-30T17:09:14.256</Modified>
+      <Modified>2016-10-31T13:13:26.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2016-10-30T17:04:42.928</Modified>
+      <Modified>2016-10-31T13:13:10.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\uutkarshsingh\Desktop\Windows Phone Apps\HelloLocalImage\HelloLocalImage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

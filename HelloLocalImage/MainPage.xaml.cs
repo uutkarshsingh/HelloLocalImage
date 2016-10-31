@@ -35,7 +35,6 @@ namespace HelloLocalImage
             txtblk.VerticalAlignment = VerticalAlignment.Center;
             ContentGrid.Children.Add(txtblk);
         }
-
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>
@@ -43,6 +42,8 @@ namespace HelloLocalImage
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            int a = 12;
+
         }
     }
 }
