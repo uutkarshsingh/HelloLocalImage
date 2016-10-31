@@ -14,12 +14,11 @@
             <Setter Property="Foreground" Value="Yellow"/>
         </Style>
     </Page.Resources>
-    
-    
-        <Grid  x:Name ="ContentGrid" Background="Blue">
-        <TextBlock Foreground="White" HorizontalAlignment="Right" >Utkarsh singh</TextBlock>
+        
+    <Grid  x:Name ="ContentGrid" Background="Blue">
+        <TextBlock Name="firstTextBlock" Foreground="Red" HorizontalAlignment="Right" >Utkarsh singh</TextBlock>
         <TextBlock HorizontalAlignment="Left"  Text="{StaticResource appName}"></TextBlock>
-    <MediaElement Source="http://www.charlespetzold.com/pw6/AudioGreeting.wma"/>
-    
+        <TextBlock HorizontalAlignment="Center" Text="INCLUDE" VerticalAlignment="Center" Foreground="{Binding ElementName=firstTextBlock, Path=Foreground}"/>
+         <MediaElement Source="http://www.charlespetzold.com/pw6/AudioGreeting.wma"/>    
     </Grid>
 </Page>
