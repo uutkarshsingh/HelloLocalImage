@@ -44,6 +44,9 @@ namespace HelloLocalImage
         {
             int a = 12;
 
+            Binding myBinding = new Binding();
+            myBinding.Source = firstTextBlock.Foreground;
+            BindingOperations.SetBinding(Second, TextBlock.TextProperty, myBinding);
         }
     }
 }
