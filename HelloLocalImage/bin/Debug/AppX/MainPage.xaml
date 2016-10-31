@@ -17,9 +17,9 @@
         
     <Grid  x:Name ="ContentGrid" Background="Blue">
         <TextBlock Name="firstTextBlock" Foreground="Red" HorizontalAlignment="Right" >Utkarsh singh</TextBlock>
-        <TextBlock HorizontalAlignment="Left"  Text="{StaticResource appName}"></TextBlock>
-        <TextBlock HorizontalAlignment="Center" Text="INCLUDE" VerticalAlignment="Center" Foreground="{Binding ElementName=firstTextBlock, Path=Foreground}"/>
-         <MediaElement Source="http://www.charlespetzold.com/pw6/AudioGreeting.wma"/>    
+        <TextBlock x:Name="Second" HorizontalAlignment ="Left"  Text="{StaticResource appName}"></TextBlock>
+        <TextBlock x:Name="Third" HorizontalAlignment ="Center" Text="INCLUDE" VerticalAlignment="Center" Foreground="{Binding ElementName=firstTextBlock, Path=Foreground}"/>
+        <TextBlock x:Name="Fourth"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Text="{Binding RelativeSource={RelativeSource Self}, Path=FontFamily}"/>
     </Grid>
 </Page>
 
